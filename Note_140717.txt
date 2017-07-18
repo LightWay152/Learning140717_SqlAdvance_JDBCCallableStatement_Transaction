@@ -1,0 +1,10 @@
+﻿CallableStatement using with StorePrecedures
+
+- When Insert do not pass parameters Id because it's auto increment.
+- After Insert, if you want to monitor value of Id auto increment, you have to add attribute OUT for Id in sql and registerOutParameter in java. 
+Follow code to more understand.
+
+- Transaction: incorrect 1 in 3 code line in try catch, jump into Exception, do rollback() and alert insert failed.
+- Transaction: correct all both 3 code line in try catch, insert successfully.
+
+- Database EShopV10 -> Ask me via email: dao.nbm1502@gmail.com
